@@ -1,0 +1,30 @@
+#intro {
+    background-image: url(https://mdbootstrap.com/img/new/fluid/city/008.jpg);
+    height: 100vh;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #intro {
+    margin-top: -58.59px;
+    }
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+}
+
+.done{
+    box-sizing: border-box;
+    background-color: rgba(48, 255, 48, 0.573);
+    color: white;
+    font-weight: bold;
+    padding: 5px 60px;
+    border-radius: 20px;
+    width: 90%;
+}
